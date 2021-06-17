@@ -1,3 +1,78 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
     background-color: skyblue;
+
+}
+
+.UC {
+    display: inline-block;
+    background-color: slateblue;
+    height: 600px;
+    width: 400px;
+    text-align: center;
+}
+
+.white {
+    display: inline-block;
+    width: 370px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    top: 150px;
+}
+
+.photo {    
+    border: 5px gray solid;
+    margin-top: -50px ;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    
+}
+
+.name {
+    margin-top: 10px;
+    display: block;
+    font-size: 20px;
+}
+
+
+.locaUL {
+    font-size: 18px;
+    list-style-image: url(../image/map.png);
+}
+
+
+
+hr {
+    width: 75%;
+}
+
+.btn1 {
+    padding: 5px 20px;
+    background-color: green;
+    border-radius: 15%;
+}
+
+.btn2 {
+    padding: 5px 20px;
+    background-color: slateblue;
+    border-radius: 15%; 
+}
+
+.text {
+    display: block;
+    margin-top: 30px;
+}
+
+.links {
+    display: block;
+    margin-top: 160px;
 }
